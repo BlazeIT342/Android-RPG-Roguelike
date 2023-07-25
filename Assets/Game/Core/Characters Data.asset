@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c376bbdc18738eb439828d6a7275df14, type: 3}
+  m_Name: Characters Data
+  m_EditorClassIdentifier: 
+  characters:
+  - characterClass: 1
+    characterInformation:
+      isCharacter: 1
+      bought: 1
+      price: 0
+      icon: {fileID: 21300000, guid: 96dabb00693393b49aac2a62e80b17c5, type: 3}
+    localizedData:
+    - language: 0
+      name: Pixie
+      description: Pixie is a cool character
+    - language: 1
+      name: "\u041F\u0438\u043A\u0441\u0438"
+      description: "\u041F\u0438\u043A\u0441\u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0439
+        \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436"
+    - language: 2
+      name: "\u041Fi\u043A\u0441i"
+      description: "\u041F\u0456\u043A\u0441\u0456 - \u043A\u043B\u0430\u0441\u043D\u0438\u0439
+        \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436"
+    weapon: {fileID: 11400000, guid: 2758b13293da49e479a4c1bcde8d2e94, type: 2}
+    abilities:
+    - {fileID: 11400000, guid: 057b6b4bff872f94cb4748828806981f, type: 2}
+    - {fileID: 11400000, guid: 1e2983037a63a664bb2e37a804160956, type: 2}
+    perksProgression: {fileID: 11400000, guid: 97a4108091b582f4b8dd5581784584bb, type: 2}
+    BaseStats:
+    - stat: 3
+      levels:
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+    - stat: 0
+      levels:
+      - 5
+    - stat: 1
+      levels:
+      - 5
+    - stat: 7
+      levels:
+      - 50
+    - stat: 8
+      levels:
+      - 1
+    - stat: 9
+      levels:
+      - 2
+    - stat: 10
+      levels:
+      - 1
+    - stat: 11
+      levels:
+      - 8
+  - characterClass: 3
+    characterInformation:
+      isCharacter: 0
+      bought: 0
+      price: 0
+      icon: {fileID: 21300000, guid: 601e8e68ae26c4446b7cfb54759cd2eb, type: 3}
+    localizedData: []
+    weapon: {fileID: 0}
+    abilities: []
+    perksProgression: {fileID: 0}
+    BaseStats:
+    - stat: 0
+      levels:
+      - 5
+    - stat: 1
+      levels:
+      - 1
+    - stat: 7
+      levels:
+      - 7
+  - characterClass: 2
+    characterInformation:
+      isCharacter: 1
+      bought: 0
+      price: 20
+      icon: {fileID: 21300000, guid: bacdaf866170f4340af66e0c8848ee6c, type: 3}
+    localizedData: []
+    weapon: {fileID: 11400000, guid: 2758b13293da49e479a4c1bcde8d2e94, type: 2}
+    abilities:
+    - {fileID: 11400000, guid: 6e0f40d3f06fe3649adb79905ec5654d, type: 2}
+    - {fileID: 11400000, guid: 057b6b4bff872f94cb4748828806981f, type: 2}
+    perksProgression: {fileID: 11400000, guid: 97a4108091b582f4b8dd5581784584bb, type: 2}
+    BaseStats:
+    - stat: 3
+      levels:
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+    - stat: 0
+      levels:
+      - 5
+    - stat: 1
+      levels:
+      - 5
+    - stat: 7
+      levels:
+      - 50
+    - stat: 8
+      levels:
+      - 1
+    - stat: 9
+      levels:
+      - 2
+    - stat: 10
+      levels:
+      - 1
+    - stat: 11
+      levels:
+      - 8

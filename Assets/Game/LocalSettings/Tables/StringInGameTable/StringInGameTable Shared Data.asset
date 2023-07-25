@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: StringInGameTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: StringInGameTable
+  m_TableCollectionNameGuidString: a1376410ad018094bbda73e27f185df3
+  m_Entries:
+  - m_Id: 33603846144
+    m_Key: GameKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 640523829248
+    m_Key: OverKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 983244603392
+    m_Key: EnemiesKilledKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1250564374528
+    m_Key: TimeSurvivedKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1560129175552
+    m_Key: LevelsEarnedKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2376017772544
+    m_Key: YouReceivedKey
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5118607451225587736
+  references:
+    version: 2
+    RefIds:
+    - rid: 5118607451225587736
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1689597275702

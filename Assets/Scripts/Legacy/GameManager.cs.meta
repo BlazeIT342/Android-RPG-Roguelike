@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba121b0293b9c3b4d9eef2872eaee519
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerLevelText: {instanceID: 0}
+  - lvlUpPanel: {fileID: 9144476939826069476, guid: c7fb68cb751ecf44d87d11455979a1b8, type: 3}
+  - experienceSlider: {instanceID: 0}
+  - canvas: {fileID: 405917974007598081, guid: 34156362f00ee014090f4f7253c0df1d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

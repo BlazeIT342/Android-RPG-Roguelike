@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8ad5688aaf7dd4c981262d716a6405, type: 3}
+  m_Name: New Perks Progression
+  m_EditorClassIdentifier: 
+  perkTypes:
+  - perkType: 0
+    perks:
+    - perk: {fileID: 11400000, guid: bd3dd5412086017419ee10a63afa65e9, type: 2}
+      choosed: 0
+    - perk: {fileID: 11400000, guid: 0596a4de0295c9c46ba43f396cea3c7d, type: 2}
+      choosed: 0
+  - perkType: 1
+    perks:
+    - perk: {fileID: 11400000, guid: 445542ce1068fa240a2f5b6b6b1f7b07, type: 2}
+      choosed: 0
+  - perkType: 2
+    perks:
+    - perk: {fileID: 11400000, guid: 1c9e5add944247641acfc2c7e269ea8d, type: 2}
+      choosed: 0
+  - perkType: 3
+    perks:
+    - perk: {fileID: 11400000, guid: c0525f33737269c4a983bbf9e207d1f9, type: 2}
+      choosed: 0
+  - perkType: 4
+    perks:
+    - perk: {fileID: 11400000, guid: e7c3dce56be936448ad3cb4b6bf02c9a, type: 2}
+      choosed: 0
+  - perkType: 5
+    perks:
+    - perk: {fileID: 11400000, guid: 5c348d683b6a5534dbdeb0bcbcaf8cbb, type: 2}
+      choosed: 1
+  - perkType: 6
+    perks:
+    - perk: {fileID: 11400000, guid: eb4f9725e21658c47a21c2e51a430ae4, type: 2}
+      choosed: 0

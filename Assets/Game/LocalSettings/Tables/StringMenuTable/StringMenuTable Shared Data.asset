@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: StringMenuTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: StringMenuTable
+  m_TableCollectionNameGuidString: e381da8f507871b4eb0d6d86e2d670a1
+  m_Entries:
+  - m_Id: 22509912064
+    m_Key: PlayKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9215363121152
+    m_Key: SettingsKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9380144742400
+    m_Key: AuthorsKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9418572955648
+    m_Key: ExitKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11178356113408
+    m_Key: LanguageKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11724848758784
+    m_Key: MusicKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11933376970752
+    m_Key: SFXKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63911427702784
+    m_Key: "\u0421haractersKey"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64616355987456
+    m_Key: StartKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71545627213824
+    m_Key: PauseKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71655350206464
+    m_Key: ContinueKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71778159427584
+    m_Key: BackToMenuKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838264587157504
+    m_Key: BuyKey
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5118607450638909465
+  references:
+    version: 2
+    RefIds:
+    - rid: 5118607450638909465
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1689581403906

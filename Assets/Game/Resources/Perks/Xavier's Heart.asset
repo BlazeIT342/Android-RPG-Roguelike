@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7fd69a6b1e0de4986feba7b125f281, type: 3}
+  m_Name: Xavier's Heart
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: d7076eca495c3b84da37528bee5b9f2d, type: 3}
+  localizedData:
+  - language: 0
+    name: Xavier's Heart
+    description: Regenerates one heart
+  - language: 1
+    name: "\u0421\u0435\u0440\u0434\u0446\u0435 \u041A\u0441\u0430\u0432\u044C\u0435\u0440\u0430"
+    description: "\u0412\u043E\u0441\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442
+      \u043E\u0434\u043D\u043E \u0441\u0435\u0440\u0434\u0446\u0435\r"
+  - language: 2
+    name: "\u0421\u0435\u0440\u0446\u0435 \u041A\u0441\u0430\u0432\u0435\u0440\u0456\u044F"
+    description: "\u0412\u0456\u0434\u043D\u043E\u0432\u043B\u044E\u0454 \u043E\u0434\u043D\u0435
+      \u0441\u0435\u0440\u0446\u0435"
+  additiveModifiers:
+  - stat: 0
+    value: 1
+  percentageModifiers: []
+  function:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 544533299331241317, guid: da4568890e5c50345880273aa8060461, type: 3}
+        m_TargetAssemblyTypeName: RPG.Attributes.TakeHeart, Assembly-CSharp
+        m_MethodName: HealPlayer
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
