@@ -6,12 +6,11 @@ The aim was to create a roguelike game about the demon, that will be slaying ang
 The game is limited in time. Player's aim is to survive 10 minutes and kill all bosses. To do that, player has 2 speells and perks, the choose of which will appear after every levelup.
 
 ## About
-Now the game is in process, but I already did the most part of it.
+Now the game is in process, but I have already did the most part of it.
 
 ## In process
-*
-*
-*
-*
-*
-*
+* Boss's mechanic 
+* Variants of characters
+* Variants of spells for each character
+* In-game currensy system
+
