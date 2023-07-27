@@ -12,5 +12,5 @@ Now the game is in process, but I have already did the most part of it.
 * Boss's mechanic 
 * Variants of characters
 * Variants of spells for each character
-* In-game currensy system
+* In-game currency system
 
