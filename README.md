@@ -24,4 +24,4 @@ Now the game is in process, but I have already did the most part of it.
 <img src = "Assets/Asset Packs/Screenshots/FireCircle.png"> </img>
 <img src = "Assets/Asset Packs/Screenshots/Ultimate.png"> </img>
 <img src = "Assets/Asset Packs/Screenshots/PerksMenu.png"> </img>
-<img src = "Assets/Asset Packs/Screenshots/GameOver.png"></img>
+<img src = "Assets/Asset Packs/Screenshots/GameOver.png"> </img>
